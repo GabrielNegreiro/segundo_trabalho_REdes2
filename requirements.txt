@@ -1,0 +1,5 @@
+# Dependências diretas previstas na especificação do trabalho.
+# asyncio faz parte da biblioteca padrão do Python e não deve ser instalado via pip.
+httpx[http2]==0.28.1
+aioquic==1.7.0
+matplotlib==3.11.2

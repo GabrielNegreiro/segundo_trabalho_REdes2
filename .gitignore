@@ -1,0 +1,21 @@
+# Ambiente Python e artefatos locais
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Dados e figuras gerados pelos experimentos
+results/raw/*
+results/processed/*
+servers/content/workloads/
+
+# Certificados e chaves locais
+servers/certs/*
+*.key
+*.pem
+
+# Arquivos do sistema e editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

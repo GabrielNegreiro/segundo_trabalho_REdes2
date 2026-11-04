@@ -1,0 +1,16 @@
+{
+	auto_https off
+	servers {
+		protocols h1 h2 h3
+	}
+}
+
+https://:443 {
+	tls /etc/caddy/certs/localhost.crt /etc/caddy/certs/localhost.key {
+		protocols tls1.3
+	}
+
+	root * /srv
+	header X-Benchmark-Server http3
+	file_server
+}
