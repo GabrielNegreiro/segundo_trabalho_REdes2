@@ -331,6 +331,3 @@ As seis figuras PNG estão em `results/processed/figures/`, a 300 DPI:
 
 Todas usam barras de erro correspondentes ao IC95 calculado sobre as dez repetições independentes. Os dados brutos em `results/raw/` são somente leitura para esta etapa.
 
-## Estado atual
-
-As Etapas 1 a 7 foram concluídas. O lote oficial `20261030T185905Z` contém 240 medições validadas: 12 testes × 10 repetições × modos cold e warm, totalizando 6.180 requisições bem-sucedidas e nenhuma falha. O manifesto `results/raw/20261030T185905Z_official_manifest.txt` registra os arquivos e seus hashes SHA-256; os dados do smoke permanecem separados. As tabelas e figuras da Etapa 7 estão em `results/processed/`. Ainda não foram elaborados o relatório final nem conclusões científicas da Etapa 8. As regras `netem` foram removidas e os contêineres foram encerrados ao final da execução experimental.
